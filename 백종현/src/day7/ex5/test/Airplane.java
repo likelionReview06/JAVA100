@@ -57,11 +57,11 @@ public class Airplane extends Machine implements IWings, IDriving {
 
     @Override
     public void fly() {
-        System.out.println("날아갑니다.");
+        System.out.println("비행기 날아갑니다.");
     }
 
     @Override
     public void land() {
-        System.out.println("착륙합니다");
+        System.out.println("비행기 착륙합니다");
     }
 }

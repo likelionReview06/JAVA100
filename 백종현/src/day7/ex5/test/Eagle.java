@@ -16,11 +16,11 @@ public class Eagle extends Animal implements IWings {
 
     @Override
     public void fly() {
-        System.out.println("날아갑니다.");
+        System.out.println("독수리 날아갑니다.");
     }
 
     @Override
     public void land() {
-        System.out.println("착륙합니다");
+        System.out.println("독수리 착륙합니다");
     }
 }

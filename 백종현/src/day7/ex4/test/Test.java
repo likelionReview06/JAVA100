@@ -2,6 +2,8 @@ package day7.ex4.test;
 
 public class Test {
     public static void main(String[] args) {
+        //다중 임플리먼츠 예제
+
         MP3 mp3 = new MP3();
         mp3.addSong("song1");
         mp3.addSong("song2");
