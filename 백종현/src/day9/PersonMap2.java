@@ -56,6 +56,10 @@ public class PersonMap2 {
             }
             System.out.println();
         }
+        for (var entry:  map.entrySet()){
+            System.out.println(entry.getKey());
+            System.out.println(entry.getValue());
+        }
 
 
 
